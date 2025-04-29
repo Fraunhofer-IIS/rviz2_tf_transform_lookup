@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rviz2_tf_transform_lookup</name>
+  <version>1.0.0</version>
+  <description>Allows user to dynamically acquire and copy the transform values between any two valid frames through an Rviz plugin</description>
+  
+  <maintainer email="sebastian.zarnack@iis.fraunhofer.de">Sebastian Zarnack</maintainer>
+  
+  <author email="gokhulraj6200@gmail.com">Gokhul Raj Ravikumar</author>
+
+  <license>MIT</license>
+
+  <url type="bugtracker">https://github.com/Fraunhofer-IIS/rviz2_tf_transform_lookup/issues</url>
+  <url type="repository">https://github.com/Fraunhofer-IIS/rviz2_tf_transform_lookup</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>pluginlib</depend>
+  <depend>rviz_common</depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2</depend>
+  
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

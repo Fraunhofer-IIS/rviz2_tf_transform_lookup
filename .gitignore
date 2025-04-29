@@ -1,0 +1,17 @@
+# General
+*~
+~$
+.swp$
+
+#ROS 2 build files
+.colcon/
+build/
+install/
+log/
+
+# Ignore editor-specific files
+.vscode/
+*.swp
+
+#gdb
+*.gdb

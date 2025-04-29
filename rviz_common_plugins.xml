@@ -1,0 +1,5 @@
+<library path="tf_lookup">
+  <class type="rviz2_tf_transform_lookup::TfLookup" base_class_type="rviz_common::Panel">
+    <description>rviz2 panel plugin for tf2 transform.</description>
+  </class>
+</library>
