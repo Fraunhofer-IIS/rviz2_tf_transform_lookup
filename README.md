@@ -83,6 +83,6 @@ Follow the steps below to add the custom panel to your RViz2 interface:
 
 4. The panel should now appear in your RViz2 window. yiu can save the config for convenience.
 
-5. select the From (`TF_Frame_1`) and to (`TF Frame_2`) according to your choice to visualize the transform values.
+5. select the From (`TF_Frame_1`) and to (`TF_Frame_2`) according to your choice to visualize the transform values.
 
 6. The copy button next to each value fields can be enabled with a click, it copies the displayed transform values to the clipboard.
